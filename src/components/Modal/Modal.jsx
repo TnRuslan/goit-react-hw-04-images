@@ -15,7 +15,6 @@ export const Modal = ({ src, alt, onClose }) => {
 
   useEffect(() => {
     const hendelKeyDown = e => {
-      console.log(e.code);
       if (e.code === 'Escape') {
         onClose();
       }
